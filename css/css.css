@@ -1,0 +1,83 @@
+body {
+    background-image: url(/images/architecture-buildings-city-975407.jpg);
+    background-size: cover;
+    color: white;
+    transition: background-color .5s;
+}
+header {
+    height: 100vh;
+}
+.thanks {
+    position: fixed;
+}
+.navside {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0b0b0b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.navside a {
+    padding: 8px 8px 8px 1px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #a84852;
+    display: block;
+    transition: 0.3s;
+}
+
+.navside a:hover {
+    color: #b27474;
+}
+
+.navside .closebutton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .navside {padding-top: 15px;}
+  .navside a {font-size: 18px;}
+}
+
+.bmenu{
+	color: transparent;
+	display: block;
+	letter-spacing: 1px;
+	
+}
+.bmenu:hover{
+	text-shadow: 0px 0px 5px #000000;
+}
+.bmenu a:hover{
+	color: #c18181;
+	padding-left: 10px;
+}
+
+div.box {
+    margin: auto;
+    background-color: #a86767;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+div.box p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
