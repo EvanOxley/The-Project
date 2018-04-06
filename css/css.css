@@ -1,15 +1,22 @@
-body {
-    background-image: url(/images/architecture-buildings-city-975407.jpg);
+html body {
+    margin: 0;
+}
+.body1 {
     background-size: cover;
     color: white;
-    transition: background-color .5s;
+    height: 100%;
+    width: 100%;
+    position: fixed
 }
+
 header {
     height: 100vh;
 }
+
 .thanks {
     position: fixed;
 }
+
 .navside {
     height: 100%;
     width: 0;
@@ -45,34 +52,44 @@ header {
 }
 
 @media screen and (max-height: 450px) {
-  .navside {padding-top: 15px;}
-  .navside a {font-size: 18px;}
+    .navside {
+        padding-top: 15px;
+    }
+    .navside a {
+        font-size: 18px;
+    }
 }
 
-.bmenu{
-	color: transparent;
-	display: block;
-	letter-spacing: 1px;
-	
+.bmenu {
+    color: transparent;
+    display: block;
+    letter-spacing: 1px;
+
 }
-.bmenu:hover{
-	text-shadow: 0px 0px 5px #000000;
+
+.bmenu:hover {
+    text-shadow: 0px 0px 5px #000000;
 }
-.bmenu a:hover{
-	color: #c18181;
-	padding-left: 10px;
+
+.bmenu a:hover {
+    color: #c18181;
+    padding-left: 10px;
 }
 
 div.box {
     margin: auto;
     background-color: #a86767;
     border: 1px solid black;
-    opacity: 0.7;
+    align-content: center;
+    height: 20%;
 }
+
 div.box p {
     margin: 2%;
     font-weight: bold;
-    color: #000000
+    color: #000000;
+    opacity: 1;
+    font-size: 22px
 }
 
 #main {
@@ -80,4 +97,17 @@ div.box p {
     padding: 16px;
 }
 
+.port {
+    text-shadow: 0px 0px 5px #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 160px;
 
+}
+
+.center {
+    text-align: center;
+    font-size: 52px
+}
